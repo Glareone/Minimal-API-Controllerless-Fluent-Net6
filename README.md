@@ -11,5 +11,14 @@ Minimal API .Net6
 ## CORS
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/f916de7f-61a6-45db-a09f-a75f4bd06768)  
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/37dc9ea4-d702-4f9c-a745-4c4e6938024e)
+### Run FrontendSPA to test CORS
+In order to test CORS you may run Index.html file hosted under Course03 project in Frontend-for-CORS folder using LiveReloadServer
+
+To Install LiveReloadServer for .Net6 and .Net7: 
+1. cmd -> dotnet install -g --version 1.1.0 LiveReloadServer
+2. cmd -> dontnet install -g LiveReloadServer
+
+To host Index.Html file in server's memory:
+1. cmd -> livereloadserver {BasePath}\Chapter03-CORS-GlobalAPISettings\Folder-For-Frontend
 
 
