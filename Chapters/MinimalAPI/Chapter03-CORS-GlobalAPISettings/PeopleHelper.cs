@@ -1,6 +1,5 @@
-﻿using System.Net.Mime;
-
-namespace Chapter02_Architecturing_minimal_api;
+﻿namespace Chapter03_CORS_GlobalAPISettings;
+using System.Net.Mime;
 
 public class PeopleHelper : IEndpointRouteHandler
 {
@@ -9,7 +8,7 @@ public class PeopleHelper : IEndpointRouteHandler
     {
         app.MapGet("/api/people", GetList)
             .Produces<ResponseData>(StatusCodes.Status200OK)
-            .WithTags("Endpoint Sample")
+            .WithTags("Endpoint Sample Tag Declared on Endpoint Level")
             .WithName("GetUserListOperation"); // Operation Ids to OpenAPI
 
         app.MapGet("/api/people/{id:guid}", Get);

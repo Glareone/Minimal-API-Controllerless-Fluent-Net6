@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
-using Chapter02_Architecturing_minimal_api;
-using Chapter02_Architecturing_minimal_api.OperationFilters;
+using Chapter03_CORS_GlobalAPISettings;
+using Chapter03_CORS_GlobalAPISettings.OperationFilters;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +32,27 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddScoped<PeopleService>();
 
+var corsPolicy = new CorsPolicyBuilder("http://localhost:5200")
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .Build();
+
+// Add CORS You registered without specifying a name
+// builder.Services.AddCors(c => c.AddDefaultPolicy(corsPolicy));
+
+// Add named CORS. It could be associated to selected endpoints or request types. Useful in case of microservices
+builder.Services.AddCors(c => c.AddPolicy("My Defined CORS Policy", corsPolicy));
+
 var app = builder.Build();
+
+// Use CORS for the whole application
+//app.UseCors();
+
+app.UseCors("My Defined CORS Policy");
+
+// CORS Also could be specified on Endpoint level
+// .RequireCors("MyCustomPolicy");
+// [EnableCors("Name")]
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
