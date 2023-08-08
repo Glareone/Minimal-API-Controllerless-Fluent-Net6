@@ -1,4 +1,4 @@
-﻿namespace Chapter03_CORS_GlobalAPISettings;
+﻿namespace Chapter03_CORS_GlobalAPISettings.MapHelpers;
 using Microsoft.AspNetCore.Cors;
 
 public class CORSEndpointsHelper : IEndpointRouteHandler
