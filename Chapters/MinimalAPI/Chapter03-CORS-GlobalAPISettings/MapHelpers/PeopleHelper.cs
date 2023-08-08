@@ -1,4 +1,4 @@
-﻿namespace Chapter03_CORS_GlobalAPISettings;
+﻿namespace Chapter03_CORS_GlobalAPISettings.MapHelpers;
 using System.Net.Mime;
 
 public class PeopleHelper : IEndpointRouteHandler
@@ -12,34 +12,38 @@ public class PeopleHelper : IEndpointRouteHandler
             .WithName("GetUserListOperation"); // Operation Ids to OpenAPI
 
         app.MapGet("/api/people/{id:guid}", Get);
-        
+
         app.MapPost("/api/people", Insert)
             .Accepts<ResponseData>(MediaTypeNames.Application.Json);
 
         app.MapPut("/api/people/{id:guid}", Update);
-        
+
         app.MapDelete("/api/people/{id:guid}", Delete)
             .ExcludeFromDescription(); // Excluded from Swagger Description
     }
 
     private static IResult GetList(PeopleService peopleService)
     {
-        return Results.Ok(); }
+        return Results.Ok();
+    }
 
     private static IResult Get(Guid id, PeopleService
         peopleService)
     {
-        return Results.Ok(); }
+        return Results.Ok();
+    }
 
     private static IResult Insert(Person person,
         PeopleService people)
     {
-        return Results.Ok(); }
+        return Results.Ok();
+    }
 
     private static IResult Update(Guid id, Person
         person, PeopleService people)
     {
-        return Results.Ok(); }
+        return Results.Ok();
+    }
 
     private static IResult Delete(Guid id)
     {

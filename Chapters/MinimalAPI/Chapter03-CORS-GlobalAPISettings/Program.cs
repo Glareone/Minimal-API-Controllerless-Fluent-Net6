@@ -1,9 +1,30 @@
 ﻿using System.Reflection;
 using Chapter03_CORS_GlobalAPISettings;
+using Chapter03_CORS_GlobalAPISettings.Configuration;
 using Chapter03_CORS_GlobalAPISettings.OperationFilters;
+using Chapter03_CORS_GlobalAPISettings.Options;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Read Configuration Settings
+// 
+var startupConfig = builder.Configuration.GetSection(nameof(MyCustomStartupObject)).Get<MyCustomStartupObject>();
+var myCustomValue = builder.Configuration.GetValue<string>("MyCustomValue");
+
+
+// Read Configuration using Options
+//
+builder.Services.Configure<OptionBasic>(builder.Configuration.GetSection("OptionBasic"));
+builder.Services.Configure<OptionMonitor>(builder.Configuration.GetSection("OptionMonitor"));
+builder.Services.Configure<OptionSnapshot>(builder.Configuration.GetSection("OptionSnapshot"));
+builder.Services.Configure<OptionCustomName>("CustomName1", builder.Configuration.GetSection("CustomName1"));
+builder.Services.Configure<OptionCustomName>("CustomName2", builder.Configuration.GetSection("CustomName2"));
+// Reread and Configure new ConfigOptions
+builder.Services.PostConfigure<MyConfigOptions>(myOptions =>
+{
+    myOptions.Key1 = "my_new_value_post_configuration";
+});
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
