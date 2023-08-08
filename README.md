@@ -23,3 +23,8 @@ To host Index.Html file in server's memory:
 1. cmd -> livereloadserver {BasePath}\Chapter03-CORS-GlobalAPISettings\Folder-For-Frontend
 
 
+## IOptions vs IOptionMonitor vs IOptionSnapshot
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/06ab9e0b-4bac-4712-bf90-78eb0c6b9890)
+
+
+
