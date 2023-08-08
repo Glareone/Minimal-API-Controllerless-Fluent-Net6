@@ -30,5 +30,11 @@ public class ConfigurationHelper : IEndpointRouteHandler
                 });
             })
             .WithName("ReadOptions");
+
+        app.MapGet("/read/validated-options", (IOptions<OptionsWithValidation> optionsValidation) => Results.Ok(new
+            {
+                Validation = optionsValidation
+        }))
+            .WithName("Read Validated Options");
     }
 }

@@ -26,6 +26,15 @@ builder.Services.PostConfigure<MyConfigOptions>(myOptions =>
     myOptions.Key1 = "my_new_value_post_configuration";
 });
 
+builder.Services.AddOptions<OptionsWithValidation>()
+    .Bind(builder.Configuration.GetSection(nameof(OptionsWithValidation)))
+    .ValidateDataAnnotations()
+    // Custom inline validation
+    .Validate((config) =>
+    {
+        return !string.Equals(config.Email, "wrongemail@gmail.com", StringComparison.CurrentCultureIgnoreCase);
+    });
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
