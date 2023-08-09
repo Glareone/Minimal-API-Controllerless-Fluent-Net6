@@ -16,6 +16,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03-CORS-GlobalAPISet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04-ExceptionHandling", "Chapter04-ExceptionHandling\Chapter04-ExceptionHandling.csproj", "{3611C134-0D00-47C3-8EC9-76EF23E94EFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Logging", "Chapter05-Logging\Chapter05-Logging.csproj", "{08A9DE0C-DD8D-4652-B2D4-379359807C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Logging-Serilog", "Chapter05-Logging-Serilog\Chapter05-Logging-Serilog.csproj", "{D2CA3096-A449-473C-8593-29D1876B98D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{3611C134-0D00-47C3-8EC9-76EF23E94EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3611C134-0D00-47C3-8EC9-76EF23E94EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3611C134-0D00-47C3-8EC9-76EF23E94EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A9DE0C-DD8D-4652-B2D4-379359807C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A9DE0C-DD8D-4652-B2D4-379359807C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A9DE0C-DD8D-4652-B2D4-379359807C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A9DE0C-DD8D-4652-B2D4-379359807C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CA3096-A449-473C-8593-29D1876B98D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CA3096-A449-473C-8593-29D1876B98D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CA3096-A449-473C-8593-29D1876B98D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CA3096-A449-473C-8593-29D1876B98D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
