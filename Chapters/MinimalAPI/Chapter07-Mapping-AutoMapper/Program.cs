@@ -1,7 +1,5 @@
 ﻿using System.Reflection;
-using Chapter06_Model_FluentValidation;
-using FluentValidation;
-using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
+using Chapter07_Mapping_AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,13 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Register Validators
-builder.Services.AddValidatorsFromAssemblyContaining<Program>();
-
-// Separate Package
-// Adds Validation Rules Description in Swagger to all fields which use Fluent Validation
-// Could be found under Schema section
-builder.Services.AddFluentValidationRulesToSwagger();
+// Add Automapper
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 var app = builder.Build();
 
