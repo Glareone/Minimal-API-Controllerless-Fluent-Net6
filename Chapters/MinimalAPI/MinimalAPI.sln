@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Logging-Serilog",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter06-Model-FluentValidation", "Chapter06-Model-FluentValidation\Chapter06-Model-FluentValidation.csproj", "{99999C66-2690-4C74-9352-6EF9635B3D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07-Mapping-AutoMapper", "Chapter07-Mapping-AutoMapper\Chapter07-Mapping-AutoMapper.csproj", "{08F5ECB1-D23B-49FC-9034-1F987BA222D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{99999C66-2690-4C74-9352-6EF9635B3D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99999C66-2690-4C74-9352-6EF9635B3D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99999C66-2690-4C74-9352-6EF9635B3D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F5ECB1-D23B-49FC-9034-1F987BA222D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F5ECB1-D23B-49FC-9034-1F987BA222D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F5ECB1-D23B-49FC-9034-1F987BA222D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F5ECB1-D23B-49FC-9034-1F987BA222D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
