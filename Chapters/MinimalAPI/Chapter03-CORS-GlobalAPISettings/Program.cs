@@ -30,10 +30,7 @@ builder.Services.AddOptions<OptionsWithValidation>()
     .Bind(builder.Configuration.GetSection(nameof(OptionsWithValidation)))
     .ValidateDataAnnotations()
     // Custom inline validation
-    .Validate((config) =>
-    {
-        return !string.Equals(config.Email, "wrongemail@gmail.com", StringComparison.CurrentCultureIgnoreCase);
-    });
+    .Validate((config) => !string.Equals(config.Email, "wrongemail@gmail.com", StringComparison.CurrentCultureIgnoreCase));
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
