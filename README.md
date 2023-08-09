@@ -7,7 +7,9 @@
 5. [Exception Handling following IETF Standard and custom handling](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter04-ExceptionHandling)
 6. [Logging JsonFormatted and W3C](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter05-Logging/Program.cs)  
 7. [Logging using Serilog and AppInsights. Configuration](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter05-Logging-Serilog/appsettings.json)
-8. [DTO Fluent Validation. Enrich Swagger with Validation Rules Description](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter06-Model-FluentValidation)  
+8. [DTO Fluent Validation. Enrich Swagger with Validation Rules Description](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter06-Model-FluentValidation)
+9. [Automapper](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter07-Mapping-AutoMapper)  
+10. [Dapper & Automapper](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter08-Dapper)  
 
 
 ## Minimal API .Net6. General Information
