@@ -32,7 +32,9 @@ To host Index.Html file in server's memory:
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/594e95f7-32ac-4be4-a09b-4840a29022f7)
 
 ## Configuring Logging in .Net6 MinimalAPI
-![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/d7408bbf-d584-4f7b-84bb-ff44d2ea0d0c)
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/d7408bbf-d584-4f7b-84bb-ff44d2ea0d0c)  
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/1fb6498e-cab9-406b-bcfa-256a93a5662b)  
+
 
 
 
