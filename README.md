@@ -8,7 +8,9 @@ Minimal API .Net6
 # Table of content
 1. [Fundamentals. Lambdas. Flat Structure file](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter01/Program.cs)
 2. [Architecturing MinimalAPI. Reflection](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter02/Chapter02-Architecturing-minimal-api/PeopleHelper.cs)  
-3. [managing CORS for MinimalAPI](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter03-CORS-GlobalAPISettings/Program.cs)
+3. [managing CORS for MinimalAPI](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter03-CORS-GlobalAPISettings/Program.cs)  
+4. [IOptions, Configuration, IOptionMonitor, IOptionSnapshot, IOptionFactory](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter03-CORS-GlobalAPISettings/Options)  
+5. Error Handling following IETF Standard and handling on your own (In progress)
 
 
 ## CORS
@@ -27,6 +29,10 @@ To host Index.Html file in server's memory:
 
 ## IOptions vs IOptionMonitor vs IOptionSnapshot
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/06ab9e0b-4bac-4712-bf90-78eb0c6b9890)
+
+## Error handling using IETF Standard
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/594e95f7-32ac-4be4-a09b-4840a29022f7)
+
 
 
 
