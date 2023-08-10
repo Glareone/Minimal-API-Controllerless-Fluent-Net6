@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07-Mapping-AutoMappe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter08-Dapper-Automapper", "Chapter08-Dapper\Chapter08-Dapper-Automapper.csproj", "{A60E90A7-CC82-460B-A7F5-070C7D0F431E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09-Authentication", "Chapter09-Authentication\Chapter09-Authentication.csproj", "{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{A60E90A7-CC82-460B-A7F5-070C7D0F431E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60E90A7-CC82-460B-A7F5-070C7D0F431E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60E90A7-CC82-460B-A7F5-070C7D0F431E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
