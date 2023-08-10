@@ -15,14 +15,16 @@ public class BusinessEndpointHelper : IEndpointRouteHandler
             var icecreamDtos = mapper.Map<IEnumerable<IcecreamDto>>(icecreams);
 
             return icecreamDtos;
-        });
+        })
+            .Produces(StatusCodes.Status200OK, typeof(IEnumerable<IcecreamDto>)); ;
 
         app.MapPost("/icecreams", async (IIcecreamsRepository repository, IMapper mapper, IcecreamDto icecreamDto) =>
         {
             var icecream = mapper.Map<Icecream>(icecreamDto);
             await repository.CreateIcecream(icecream);
             return Results.Ok();
-        });
+        })
+            .Produces(StatusCodes.Status200OK);
     }
 }
 
