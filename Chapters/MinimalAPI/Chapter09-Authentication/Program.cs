@@ -41,6 +41,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 // Add JWT Authentication
+// In this example we use only role-based claims
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -52,7 +53,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer = "https://chapter09-Authentication.com/predefined-id",
             ValidAudience = "https://chapter09-API-users"
         };
-    }); ;
+    });
+
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
