@@ -9,7 +9,14 @@
 7. [Logging using Serilog and AppInsights. Configuration](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter05-Logging-Serilog/appsettings.json)
 8. [DTO Fluent Validation. Enrich Swagger with Validation Rules Description](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter06-Model-FluentValidation)
 9. [Automapper](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter07-Mapping-AutoMapper)  
-10. [Dapper & Automapper](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter08-Dapper)  
+10. [Dapper & Automapper](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter08-Dapper)
+11. [Authentication using JWT](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter09-Authentication)
+12. [Authorization using different methods](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims)
+    - [Role-based](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/RoleBasedAdminEndpointHelper.cs)
+    - [Policy-based](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/PolicyBasedEndpointHelper.cs)
+    - [Policy-Requirement. Custom Policy](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/PolicyRequirementProtectedEndpointHelper.cs)
+    - [Fallback & Default Policies](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/Program.cs#L66)
+    - [Anonymous](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/AnonymousEndpoints.cs)  
 
 
 ## Minimal API .Net6. General Information
