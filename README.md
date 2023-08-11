@@ -70,9 +70,8 @@ Examples:
 
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/43290abf-a299-4ab8-a0ed-f0a4e94cdc8f)
 
-
-
-
+## Benchmarking using K6
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/bd08bb64-3aa3-4e52-995f-256f30e17c27)
 
 
 
