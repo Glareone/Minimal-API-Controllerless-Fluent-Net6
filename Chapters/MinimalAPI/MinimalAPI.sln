@@ -14,23 +14,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter03-CORS-GlobalAPISettings", "Chapter03-CORS-GlobalAPISettings\Chapter03-CORS-GlobalAPISettings.csproj", "{D0916D79-F56F-4188-96C5-28B260C7E4F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04-ExceptionHandling", "Chapter04-ExceptionHandling\Chapter04-ExceptionHandling.csproj", "{3611C134-0D00-47C3-8EC9-76EF23E94EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04-ExceptionHandling", "Chapter04-ExceptionHandling\Chapter04-ExceptionHandling.csproj", "{3611C134-0D00-47C3-8EC9-76EF23E94EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Logging", "Chapter05-Logging\Chapter05-Logging.csproj", "{08A9DE0C-DD8D-4652-B2D4-379359807C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter05-Logging", "Chapter05-Logging\Chapter05-Logging.csproj", "{08A9DE0C-DD8D-4652-B2D4-379359807C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05-Logging-Serilog", "Chapter05-Logging-Serilog\Chapter05-Logging-Serilog.csproj", "{D2CA3096-A449-473C-8593-29D1876B98D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter05-Logging-Serilog", "Chapter05-Logging-Serilog\Chapter05-Logging-Serilog.csproj", "{D2CA3096-A449-473C-8593-29D1876B98D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter06-Model-FluentValidation", "Chapter06-Model-FluentValidation\Chapter06-Model-FluentValidation.csproj", "{99999C66-2690-4C74-9352-6EF9635B3D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter06-Model-FluentValidation", "Chapter06-Model-FluentValidation\Chapter06-Model-FluentValidation.csproj", "{99999C66-2690-4C74-9352-6EF9635B3D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter07-Mapping-AutoMapper", "Chapter07-Mapping-AutoMapper\Chapter07-Mapping-AutoMapper.csproj", "{08F5ECB1-D23B-49FC-9034-1F987BA222D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter07-Mapping-AutoMapper", "Chapter07-Mapping-AutoMapper\Chapter07-Mapping-AutoMapper.csproj", "{08F5ECB1-D23B-49FC-9034-1F987BA222D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter08-Dapper-Automapper", "Chapter08-Dapper\Chapter08-Dapper-Automapper.csproj", "{A60E90A7-CC82-460B-A7F5-070C7D0F431E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter08-Dapper-Automapper", "Chapter08-Dapper\Chapter08-Dapper-Automapper.csproj", "{A60E90A7-CC82-460B-A7F5-070C7D0F431E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09-Authentication", "Chapter09-Authentication\Chapter09-Authentication.csproj", "{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter09-Authentication", "Chapter09-Authentication\Chapter09-Authentication.csproj", "{0E43FEDB-378D-4C13-AD8F-5F75168B6ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09-Authentication-AuthorizationClaims", "Chapter09-Authentication-AuthorizationClaims\Chapter09-Authentication-AuthorizationClaims.csproj", "{504869AC-A15E-40F3-AC5C-D35496B64C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter09-Authentication-AuthorizationClaims", "Chapter09-Authentication-AuthorizationClaims\Chapter09-Authentication-AuthorizationClaims.csproj", "{504869AC-A15E-40F3-AC5C-D35496B64C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter10-localization", "Chapter10-localization\Chapter10-localization.csproj", "{E3511870-750E-4367-B900-9156C876E0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter10-localization", "Chapter10-localization\Chapter10-localization.csproj", "{E3511870-750E-4367-B900-9156C876E0B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter11-Performance-Benchmark-K6-BenchmarkDotNet", "Chapter11-Performance-Benchmark-K6-BenchmarkDotNet\Chapter11-Performance-Benchmark-K6-BenchmarkDotNet.csproj", "{8EFBC617-0A41-406E-9D23-531E58F7423D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter11-2-Controllers-K6-BenchmarkDotNet", "Chapter11-2-Controllers-K6-BenchmarkDotNet\Chapter11-2-Controllers-K6-BenchmarkDotNet.csproj", "{1B083F52-28D2-417C-BBC5-7A9AA95D85C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter11-BenchmarkDotNet-Runner-forAPI", "Chapter11-BenchmarkDotNet-Runner-forAPI\Chapter11-BenchmarkDotNet-Runner-forAPI.csproj", "{C5B84558-670A-48D5-8A6D-FAF2941F91FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +92,18 @@ Global
 		{E3511870-750E-4367-B900-9156C876E0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3511870-750E-4367-B900-9156C876E0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3511870-750E-4367-B900-9156C876E0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFBC617-0A41-406E-9D23-531E58F7423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFBC617-0A41-406E-9D23-531E58F7423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFBC617-0A41-406E-9D23-531E58F7423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFBC617-0A41-406E-9D23-531E58F7423D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B083F52-28D2-417C-BBC5-7A9AA95D85C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B083F52-28D2-417C-BBC5-7A9AA95D85C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B083F52-28D2-417C-BBC5-7A9AA95D85C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B083F52-28D2-417C-BBC5-7A9AA95D85C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B84558-670A-48D5-8A6D-FAF2941F91FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B84558-670A-48D5-8A6D-FAF2941F91FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B84558-670A-48D5-8A6D-FAF2941F91FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B84558-670A-48D5-8A6D-FAF2941F91FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
