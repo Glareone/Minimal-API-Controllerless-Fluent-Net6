@@ -34,6 +34,15 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.DefaultRequestCulture = new RequestCulture(supportedCultures.First());
 });
 
+// To convert DateTime using JsonOptions with Kind
+builder.Services.Configure<Microsoft.AspNetCore.Http.Json.
+    JsonOptions>(options =>
+{
+    // Out custom Converter because JsonConvert used in MinimalApi does not support logic overriding
+    // instead we could add our own converter
+    options.SerializerOptions.Converters.Add(new UtcDateTimeConverter());
+});
+
 var app = builder.Build();
 app.MapAllEndpoints(Assembly.GetExecutingAssembly());
 
