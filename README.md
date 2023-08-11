@@ -17,7 +17,12 @@
     - [Policy-Requirement. Custom Policy](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/PolicyRequirementProtectedEndpointHelper.cs)
     - [Fallback & Default Policies](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/Program.cs#L66)
     - [Anonymous](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter09-Authentication-AuthorizationClaims/MapHelper/AnonymousEndpoints.cs)  
-13. [Localization & Globalization using resx. DateTime Converter](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter10-localization)  
+13. [Localization & Globalization using resx. DateTime Converter](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter10-localization)
+14. Benchmakring ControllerAPI & MinimalAPI
+    - [BenchmarkDotNet Runner](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-BenchmarkDotNet-Runner-forAPI)  
+    - [MinimalAPI and K6 scripts](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-Performance-Benchmark-K6-BenchmarkDotNet)  
+    - [ControllerAPI and K6 scripts](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-2-Controllers-K6-BenchmarkDotNet)  
+    - [Benchmark results](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-Performance-Benchmark-K6-BenchmarkDotNet/BenchmarkDotNet-Results)  
 
 ## Minimal API .Net6. General Information
 Examples: 
@@ -77,11 +82,11 @@ http_req: 20078 - means a number of requests handled per second and total number
 ### Compare Controllers vs MinimalAPI
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/f5bb6c27-50e1-4a28-ba3d-87cdcccbd689)  
   
-The difference is approximately 30%.  
-
-![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/8bf55092-e83c-4b0d-a0c0-600ece565836)
-
-
+The difference is approximately 5-20%.  
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/8bf55092-e83c-4b0d-a0c0-600ece565836)  
+![results](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/0c687bfe-1bcc-4258-99a6-7b8b1280207a)  
+![minimalapi-text-plain](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/7cdc68ca-eae3-4673-94ab-388c4069009a)  
+![controllerapi-text-plain](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/45084825-6a1d-467a-bbc9-98c5e8cca4d6)  
 
 
 
