@@ -71,7 +71,9 @@ Examples:
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/43290abf-a299-4ab8-a0ed-f0a4e94cdc8f)
 
 ## Benchmarking using K6
-![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/bd08bb64-3aa3-4e52-995f-256f30e17c27)
+http_req: 20078 - means a number of requests handled per second and total number of them  
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/bd08bb64-3aa3-4e52-995f-256f30e17c27)    
+
 
 
 
