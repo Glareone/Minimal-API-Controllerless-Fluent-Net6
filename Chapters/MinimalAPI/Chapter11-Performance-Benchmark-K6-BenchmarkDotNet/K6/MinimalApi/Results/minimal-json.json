@@ -1,0 +1,109 @@
+{
+    "metrics": {
+        "data_sent": {
+            "count": 99313043,
+            "rate": 1168380.8044343945
+        },
+        "http_req_receiving": {
+            "avg": 0.27998883078332454,
+            "p(95)": 1.001
+        },
+        "vus_max": {
+            "min": 50,
+            "max": 50,
+            "value": 50
+        },
+        "http_reqs": {
+            "count": 1513338,
+            "rate": 17803.855530044904
+        },
+        "http_req_sending": {
+            "avg": 0.042620535465309105,
+            "p(95)": 0
+        },
+        "errorRate": {
+            "passes": 0,
+            "fails": 0,
+            "thresholds": {
+                "rate < 0.05": false
+            },
+            "value": 0
+        },
+        "http_req_blocked": {
+            "avg": 0.002512175138666981,
+            "p(95)": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 2.3238384789127142,
+            "p(95)": 4.4215
+        },
+        "data_received": {
+            "count": 345226376,
+            "rate": 4061459.187217239
+        },
+        "iteration_duration": {
+            "avg": 4.789280670940907,
+            "p(95)": 8.0002
+        },
+        "http_req_duration{staticAsset:yes}": {
+            "avg": 0,
+            "p(95)": 0,
+            "thresholds": {
+                "p(99)<250": false
+            }
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.0000652320895926753
+        },
+        "http_req_waiting": {
+            "avg": 2.001229112663878,
+            "p(95)": 3.9968
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 50
+        },
+        "http_req_failed": {
+            "fails": 1513338,
+            "passes": 0,
+            "value": 0
+        },
+        "http_req_duration": {
+            "avg": 2.3238384789127142,
+            "p(95)": 4.4215,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0.00039323561557299153,
+            "p(95)": 0
+        },
+        "checks": {
+            "passes": 756669,
+            "fails": 0,
+            "value": 1
+        },
+        "iterations": {
+            "count": 756669,
+            "rate": 8901.927765022452
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "status is 200": {
+                    "id": "6210a8cd14cd70477eba5c5e4cb3fb5f",
+                    "passes": 756669,
+                    "fails": 0,
+                    "name": "status is 200",
+                    "path": "::status is 200"
+                }
+            }
+    }
+}
