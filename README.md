@@ -74,6 +74,14 @@ Examples:
 http_req: 20078 - means a number of requests handled per second and total number of them  
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/bd08bb64-3aa3-4e52-995f-256f30e17c27)    
 
+### Compare Controllers vs MinimalAPI
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/f5bb6c27-50e1-4a28-ba3d-87cdcccbd689)  
+  
+The difference is approximately 30%.  
+
+![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/8bf55092-e83c-4b0d-a0c0-600ece565836)
+
+
 
 
 
