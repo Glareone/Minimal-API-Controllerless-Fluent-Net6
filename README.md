@@ -24,6 +24,9 @@
     - [MinimalAPI and K6 scripts](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-Performance-Benchmark-K6-BenchmarkDotNet)  
     - [ControllerAPI and K6 scripts](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-2-Controllers-K6-BenchmarkDotNet)  
     - [Benchmark results](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter11-Performance-Benchmark-K6-BenchmarkDotNet/BenchmarkDotNet-Results)  
+17. Error handling, RFC 9547 Modern standard and outdated RFC 7807
+    - [RFC9547 with example](#rfc-9457-july-2023-modern---must-specify-the-details-of-each-validation-error)
+    - [RFC 7807 with example](#rfc-7807-obsolete)
 
 ## Minimal API .Net6. General Information
 Examples: 
