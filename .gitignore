@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Chapters/MinimalAPI/Chapter08-Dapper/.idea/.idea.Chapter08-Dapper.dir/.idea/.gitignore
+Chapters/MinimalAPI/Chapter08-Dapper/.idea/.idea.Chapter08-Dapper.dir/.idea/encodings.xml
+Chapters/MinimalAPI/Chapter12-API-Error-Format RFC 9457/.idea/.idea.Chapter12-API-Error-Format RFC 9457.dir/.idea/.gitignore
+Chapters/MinimalAPI/Chapter12-API-Error-Format RFC 9457/.idea/.idea.Chapter12-API-Error-Format RFC 9457.dir/.idea/encodings.xml
+Chapters/MinimalAPI/Chapter12-API-Error-Format RFC 9457/.idea/.idea.Chapter12-API-Error-Response-Format.dir/.idea/.gitignore
+Chapters/MinimalAPI/Chapter12-API-Error-Format RFC 9457/.idea/.idea.Chapter12-API-Error-Response-Format.dir/.idea/encodings.xml
