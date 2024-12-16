@@ -57,9 +57,40 @@ Examples:
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/06ab9e0b-4bac-4712-bf90-78eb0c6b9890)
 
 ## Error handling using IETF Standard
-RFC And Documentation: 
+### RFC 9457 (July 2023, Modern) - must specify the details of each validation error
+RFC 9457 Doc:  
+  - https://www.rfc-editor.org/rfc/rfc9457.html  
+
+Media Type: `application/problem+json`  
+Proposed Format:
+```
+HTTP/1.1 422 Unprocessable Content
+Content-Type: application/problem+json
+Content-Language: en
+
+{
+ "type": "https://example.net/validation-error",
+ "title": "Your request is not valid.",
+ "errors": [
+             {
+               "detail": "must be a positive integer",
+               "pointer": "#/age"
+             },
+             {
+               "detail": "must be 'green', 'red' or 'blue'",
+               "pointer": "#/profile/color"
+             }
+          ]
+}
+```
+Examples:
+  - [RFC 9457 Exception Handling](WORK IN PROGRESS)
+
+### RFC 7807 (OBSOLETE)
+RFC 7807 (OBSOLETE)  And Documentation: 
   - https://datatracker.ietf.org/doc/html/rfc7807  
 
+Media Type: `application/problem+json`
 Proposed Format:  
 ```
  HTTP/1.1 403 Forbidden
@@ -81,6 +112,7 @@ Examples:
   - [Exception Handling following IETF Standard and custom handling](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter04-ExceptionHandling)
 
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/594e95f7-32ac-4be4-a09b-4840a29022f7)
+
 
 ## Configuring Logging in .Net6 MinimalAPI
 Examples:
