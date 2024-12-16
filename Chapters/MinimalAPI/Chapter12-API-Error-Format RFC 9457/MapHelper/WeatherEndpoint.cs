@@ -20,9 +20,13 @@ public class WeatherEndpoint : IEndpointRouteHandler
             var response = await openWeatherService.GetWeatherData();
             return Results.Ok(response);
         }
+        catch (HttpRequestException e) when (e.StatusCode != null)
+        {
+            throw new ProblemException("Something went wrong with OpenWeather Service", e.Message, (int)e.StatusCode);
+        }
         catch (Exception e)
         {
-            throw new ProblemException("Something went wrong with OpenWeather Service", e.Message);
-        }    
+            throw new ProblemException("Critical Error on Weather Endpoint side, general exception", e.Message);
+        }
     }
 }
