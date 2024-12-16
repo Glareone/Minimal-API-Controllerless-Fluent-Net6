@@ -57,6 +57,26 @@ Examples:
 ![image](https://github.com/Glareone/Minimal-API-.Net6/assets/4239376/06ab9e0b-4bac-4712-bf90-78eb0c6b9890)
 
 ## Error handling using IETF Standard
+RFC And Documentation: 
+  - https://datatracker.ietf.org/doc/html/rfc7807  
+
+Proposed Format:  
+```
+ HTTP/1.1 403 Forbidden
+   Content-Type: application/problem+json
+   Content-Language: en
+
+   {
+    "type": "https://example.com/probs/out-of-credit",
+    "title": "You do not have enough credit.",
+    "detail": "Your current balance is 30, but that costs 50.",
+    "instance": "/account/12345/msgs/abc",
+    "balance": 30,
+    "accounts": ["/account/12345",
+                 "/account/67890"]
+   }
+```  
+
 Examples:
   - [Exception Handling following IETF Standard and custom handling](https://github.com/Glareone/Minimal-API-.Net6/tree/main/Chapters/MinimalAPI/Chapter04-ExceptionHandling)
 
