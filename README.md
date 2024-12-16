@@ -62,7 +62,8 @@ RFC 9457 Doc:
   - https://www.rfc-editor.org/rfc/rfc9457.html  
 
 Media Type: `application/problem+json`  
-Proposed Format:
+
+### Format proposed by the standard:
 ```
 HTTP/1.1 422 Unprocessable Content
 Content-Type: application/problem+json
@@ -83,8 +84,24 @@ Content-Language: en
           ]
 }
 ```
+
+### Implemented example with traceId and requestId:
+```
+{
+  "type": "Bad Request",
+  "title": "Something went wrong with OpenWeather Service",
+  "status": 400,
+  "detail": "Response status code does not indicate success: 401 (Unauthorized).",
+  "instance": "GET /get-weather",
+  "requestId": "0HN8TPG6GMH5R:00000007",
+  "traceId": "00-352bd6ae37ee396964f8a999d6762418-ffde06642c1bdaf4-00"
+}
+```
+
 Examples:
-  - [RFC 9457 Exception Handling](WORK IN PROGRESS)
+  - [RFC 9457 Exception Handling](https://github.com/Glareone/Minimal-API-Controllerless-Fluent-Net6/tree/main/Chapters/MinimalAPI/Chapter12-API-Error-Format%20RFC%209457)
+
+
 
 ### RFC 7807 (OBSOLETE)
 RFC 7807 (OBSOLETE)  And Documentation: 
