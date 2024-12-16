@@ -25,11 +25,15 @@ public class ProblemExceptionHandler: IExceptionHandler
 
         var problemDetails = new ProblemDetails
         {
-            Status = StatusCodes.Status400BadRequest,
+            Status = problemException.StatusCode,
             Title = problemException.Error,
             Detail = problemException.ProblemExceptionMessage,
             Type = "Bad Request"
         };
+
+        // Set the proper status code error to our error
+        // without setting the code it shows 500 internal server error
+        httpContext.Response.StatusCode = problemException.StatusCode;
 
         return await _problemDetailsService.TryWriteAsync(
             new ProblemDetailsContext
