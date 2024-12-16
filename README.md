@@ -1,4 +1,4 @@
-# Minimal-API-.Net6
+# Minimal API and best practices for .Net8 and .Net6
 # Table of content, projects with detailed examples
 1. [Fundamentals. Lambdas. Flat Structure file](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter01/Program.cs)  
 2. [Architecturing MinimalAPI. Reflection & Class registration](https://github.com/Glareone/Minimal-API-.Net6/blob/main/Chapters/MinimalAPI/Chapter02/Chapter02-Architecturing-minimal-api/PeopleHelper.cs)  
